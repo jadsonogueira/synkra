@@ -83,7 +83,7 @@ export default function Hero() {
               {/* iPhone mockup with built-in frame */}
               <div className="relative w-[280px] md:w-[340px]">
                 <Image
-                  src="/mockups/blackpan-app.png"
+                  src="/mockups/iphone-hero.png"
                   alt="Synkra ordering app on iPhone showing a chef's menu"
                   width={340}
                   height={700}
