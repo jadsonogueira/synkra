@@ -88,7 +88,7 @@ export default function Hero() {
                 </div>
                 <div className="relative w-full h-full">
                   <Image
-                    src="/mockups/blackpan-app.png"
+                    src="/mockups/iphone-hero.png"
                     alt="Synkra ordering app on iPhone showing a chef's menu"
                     fill
                     className="object-cover object-top"
