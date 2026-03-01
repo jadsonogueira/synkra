@@ -89,7 +89,7 @@ export default function Hero() {
                 {/* Screen content */}
                 <div className="relative w-full h-full">
                   <Image
-                    src="https://res.cloudinary.com/dlxsvngm6/image/upload/v1772334697/IMG_6644_iuv1nu.jpg"
+                    src="https://res.cloudinary.com/dlxsvngm6/image/upload/c_crop,g_north_west,h_768,w_365,x_150,y_21/IMG_6644_iuv1nu_ncbp6z.png"
                     alt="Synkra ordering app on iPhone showing a chef's menu"
                     fill
                     className="object-cover object-top"
