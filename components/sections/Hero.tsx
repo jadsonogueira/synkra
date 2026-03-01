@@ -80,16 +80,22 @@ export default function Hero() {
               {/* Glow under phone */}
               <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 w-64 h-20 bg-primary/20 rounded-full blur-2xl" />
 
-              {/* iPhone mockup image */}
-              <div className="relative w-[280px] md:w-[320px]">
-                <Image
-                  src="/mockups/iphone-hero.png"
-                  alt="Synkra ordering app on iPhone showing a chef's menu"
-                  width={320}
-                  height={650}
-                  className="w-full h-auto drop-shadow-2xl"
-                  priority
-                />
+              {/* iPhone frame */}
+              <div className="relative w-[280px] md:w-[320px] rounded-[3rem] border-[8px] border-slate-700 bg-slate-900 shadow-2xl overflow-hidden aspect-[9/19.5]">
+                {/* Notch */}
+                <div className="absolute top-0 inset-x-0 h-7 bg-slate-800 flex justify-center items-end pb-1 z-10">
+                  <div className="w-24 h-5 bg-black rounded-full" />
+                </div>
+                {/* Screen content — replace src with your app screenshot */}
+                <div className="relative w-full h-full">
+                  <Image
+                    src="/mockups/blackpan-app.png"
+                    alt="Synkra ordering app on iPhone showing a chef's menu"
+                    fill
+                    className="object-cover object-top"
+                    priority
+                  />
+                </div>
               </div>
 
               {/* Floating badge */}
