@@ -102,7 +102,7 @@ export default function Portfolio() {
                     </div>
                     <div className="relative w-full h-full">
                       <Image
-                        src="https://res.cloudinary.com/dlxsvngm6/image/upload/v1772334697/IMG_6644_iuv1nu.jpg"
+                        src="https://res.cloudinary.com/dlxsvngm6/image/upload/v1772339131/IMG_6644_iuv1nu_ncbp6z.png"
                         alt="BlackPan ordering app"
                         fill
                         className="object-cover object-top"
